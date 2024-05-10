@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8510DAB92BEE205100322DE5 /* ChamberlyAppSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DAB82BEE205100322DE5 /* ChamberlyAppSwiftUiApp.swift */; };
+		8510DABB2BEE205100322DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DABA2BEE205100322DE5 /* ContentView.swift */; };
+		8510DABD2BEE205300322DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8510DABC2BEE205300322DE5 /* Assets.xcassets */; };
+		8510DAC02BEE205300322DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8510DABF2BEE205300322DE5 /* Preview Assets.xcassets */; };
+		8510DAC72BEE207500322DE5 /* CommunityFeedMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DAC62BEE207500322DE5 /* CommunityFeedMainView.swift */; };
+		8510DAC92BEE207D00322DE5 /* HeartBurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DAC82BEE207D00322DE5 /* HeartBurstView.swift */; };
+		8510DACB2BEE208500322DE5 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DACA2BEE208500322DE5 /* PostView.swift */; };
+		8510DACE2BEE226900322DE5 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DACD2BEE226900322DE5 /* CommentsView.swift */; };
+		8510DAD02BEE241100322DE5 /* CommentsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DACF2BEE241100322DE5 /* CommentsPageView.swift */; };
+		8510DAD22BEE32AC00322DE5 /* CommunityOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DAD12BEE32AC00322DE5 /* CommunityOptionsView.swift */; };
+		8510DAD42BEE357000322DE5 /* CommunityGuideLinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DAD32BEE357000322DE5 /* CommunityGuideLinesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8510DAB52BEE205100322DE5 /* ChamberlyAppSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChamberlyAppSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8510DAB82BEE205100322DE5 /* ChamberlyAppSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChamberlyAppSwiftUiApp.swift; sourceTree = "<group>"; };
+		8510DABA2BEE205100322DE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8510DABC2BEE205300322DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8510DABF2BEE205300322DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8510DAC62BEE207500322DE5 /* CommunityFeedMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityFeedMainView.swift; sourceTree = "<group>"; };
+		8510DAC82BEE207D00322DE5 /* HeartBurstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBurstView.swift; sourceTree = "<group>"; };
+		8510DACA2BEE208500322DE5 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		8510DACD2BEE226900322DE5 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		8510DACF2BEE241100322DE5 /* CommentsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsPageView.swift; sourceTree = "<group>"; };
+		8510DAD12BEE32AC00322DE5 /* CommunityOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityOptionsView.swift; sourceTree = "<group>"; };
+		8510DAD32BEE357000322DE5 /* CommunityGuideLinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityGuideLinesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8510DAB22BEE205100322DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8510DAAC2BEE205100322DE5 = {
+			isa = PBXGroup;
+			children = (
+				8510DAB72BEE205100322DE5 /* ChamberlyAppSwiftUi */,
+				8510DAB62BEE205100322DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8510DAB62BEE205100322DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8510DAB52BEE205100322DE5 /* ChamberlyAppSwiftUi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8510DAB72BEE205100322DE5 /* ChamberlyAppSwiftUi */ = {
+			isa = PBXGroup;
+			children = (
+				8510DAB82BEE205100322DE5 /* ChamberlyAppSwiftUiApp.swift */,
+				8510DABA2BEE205100322DE5 /* ContentView.swift */,
+				8510DACC2BEE20AA00322DE5 /* CommunityFeed */,
+				8510DABC2BEE205300322DE5 /* Assets.xcassets */,
+				8510DABE2BEE205300322DE5 /* Preview Content */,
+			);
+			path = ChamberlyAppSwiftUi;
+			sourceTree = "<group>";
+		};
+		8510DABE2BEE205300322DE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8510DABF2BEE205300322DE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8510DACC2BEE20AA00322DE5 /* CommunityFeed */ = {
+			isa = PBXGroup;
+			children = (
+				8510DAC62BEE207500322DE5 /* CommunityFeedMainView.swift */,
+				8510DAC82BEE207D00322DE5 /* HeartBurstView.swift */,
+				8510DACA2BEE208500322DE5 /* PostView.swift */,
+				8510DACD2BEE226900322DE5 /* CommentsView.swift */,
+				8510DACF2BEE241100322DE5 /* CommentsPageView.swift */,
+				8510DAD12BEE32AC00322DE5 /* CommunityOptionsView.swift */,
+				8510DAD32BEE357000322DE5 /* CommunityGuideLinesView.swift */,
+			);
+			path = CommunityFeed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8510DAB42BEE205100322DE5 /* ChamberlyAppSwiftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8510DAC32BEE205300322DE5 /* Build configuration list for PBXNativeTarget "ChamberlyAppSwiftUi" */;
+			buildPhases = (
+				8510DAB12BEE205100322DE5 /* Sources */,
+				8510DAB22BEE205100322DE5 /* Frameworks */,
+				8510DAB32BEE205100322DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChamberlyAppSwiftUi;
+			productName = ChamberlyAppSwiftUi;
+			productReference = 8510DAB52BEE205100322DE5 /* ChamberlyAppSwiftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8510DAAD2BEE205100322DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					8510DAB42BEE205100322DE5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 8510DAB02BEE205100322DE5 /* Build configuration list for PBXProject "ChamberlyAppSwiftUi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8510DAAC2BEE205100322DE5;
+			productRefGroup = 8510DAB62BEE205100322DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8510DAB42BEE205100322DE5 /* ChamberlyAppSwiftUi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8510DAB32BEE205100322DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8510DAC02BEE205300322DE5 /* Preview Assets.xcassets in Resources */,
+				8510DABD2BEE205300322DE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8510DAB12BEE205100322DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8510DAD02BEE241100322DE5 /* CommentsPageView.swift in Sources */,
+				8510DAD22BEE32AC00322DE5 /* CommunityOptionsView.swift in Sources */,
+				8510DAD42BEE357000322DE5 /* CommunityGuideLinesView.swift in Sources */,
+				8510DABB2BEE205100322DE5 /* ContentView.swift in Sources */,
+				8510DAC72BEE207500322DE5 /* CommunityFeedMainView.swift in Sources */,
+				8510DACE2BEE226900322DE5 /* CommentsView.swift in Sources */,
+				8510DAC92BEE207D00322DE5 /* HeartBurstView.swift in Sources */,
+				8510DACB2BEE208500322DE5 /* PostView.swift in Sources */,
+				8510DAB92BEE205100322DE5 /* ChamberlyAppSwiftUiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8510DAC12BEE205300322DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8510DAC22BEE205300322DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8510DAC42BEE205300322DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChamberlyAppSwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = satvik.ChamberlyAppSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8510DAC52BEE205300322DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChamberlyAppSwiftUi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = satvik.ChamberlyAppSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8510DAB02BEE205100322DE5 /* Build configuration list for PBXProject "ChamberlyAppSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8510DAC12BEE205300322DE5 /* Debug */,
+				8510DAC22BEE205300322DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8510DAC32BEE205300322DE5 /* Build configuration list for PBXNativeTarget "ChamberlyAppSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8510DAC42BEE205300322DE5 /* Debug */,
+				8510DAC52BEE205300322DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8510DAAD2BEE205100322DE5 /* Project object */;
+}
